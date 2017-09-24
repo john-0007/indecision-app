@@ -1,0 +1,23 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "John Joseph",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-0007/indecision-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/john-0007/indecision-app/issues"
+  },
+  "homepage": "https://github.com/john-0007/indecision-app#readme",
+  "description": "",
+  "dependencies": {
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1"
+  }
+}
