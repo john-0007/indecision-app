@@ -27,5 +27,4 @@ var render = function render() {
   );
   ReactDOM.render(visbility, document.getElementById("app"));
 };
-
 render();
