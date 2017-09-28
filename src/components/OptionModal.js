@@ -1,6 +1,5 @@
 import React from "react";
 import Modal from "react-modal";
-
 const OptionModal= (props) => (
  <Modal
  isOpen={!!props.selectedOption}
@@ -11,5 +10,4 @@ const OptionModal= (props) => (
  <button onClick={props.handleClearSelectedOption}>Okay</button>
  </Modal>
 );
-
 export default OptionModal;
