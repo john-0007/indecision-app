@@ -5,7 +5,10 @@
   "author": "John Joseph",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "serve": "live-server public/",
+    "dev-server": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -17,7 +20,18 @@
   "homepage": "https://github.com/john-0007/indecision-app#readme",
   "description": "",
   "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.5.2",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "live-server": "^1.2.0",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "devDependencies": {
+    "babel-preset-stage-2": "^6.24.1"
   }
 }
